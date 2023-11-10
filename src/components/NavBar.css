@@ -1,0 +1,22 @@
+/* NavBar.module.css */
+
+.navbar {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px;
+    position: fixed; /* Fija la posición en la parte superior */
+    top: 0; /* Coloca el NavBar en la parte superior */
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  .navbar a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    margin-right: 20px; /* Espacio entre los enlaces */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+  }
